@@ -4,6 +4,7 @@ Demonstration to perform EDA(Exploratory Data Analysis), Data cleaning, Data Vis
 # Objective:
 
 From the text reviews of Amazon food products, determine whether the reviews are positive or negative.
+
 Data source:  https://www.kaggle.com/snap/amazon-fine-food-reviews
 1. Number of reviews: 568,454
 2. Number of users: 256,059
