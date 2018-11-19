@@ -4,27 +4,25 @@ Demonstration to perform EDA(Exploratory Data Analysis), Data cleaning, Data Vis
 # Objective:
 
 From the text reviews of Amazon food products, determine whether the reviews are positive or negative.
-Data source:https://www.kaggle.com/snap/amazon-fine-food-reviews
-
-All data in one sqlite database. 568,454 food reviews Amazon users left up to October 2012.
-Number of reviews: 568,454
-Number of users: 256,059
-Number of products: 74,258
-Timespan: Oct 1999 - Oct 2012
-Number of Attributes/Columns in data: 10
+Data source:  https://www.kaggle.com/snap/amazon-fine-food-reviews
+1. Number of reviews: 568,454
+2. Number of users: 256,059
+3. Number of products: 74,258
+4. Timespan: Oct 1999 - Oct 2012
+5. Number of Attributes/Columns in data: 10
 
 # Attribute Information:
 
-Id
-ProductId - unique identifier for the product
-UserId - unqiue identifier for the user
-ProfileName
-HelpfulnessNumerator - number of users who found the review helpful
-HelpfulnessDenominator - number of users who indicated whether they found the review helpful or not
-Score - rating between 1 and 5
-Time - timestamp for the review
-Summary - brief summary of the review
-Text - text of the review
+1. Id
+2. ProductId - unique identifier for the product
+3. UserId - unqiue identifier for the user
+4. ProfileName
+5. HelpfulnessNumerator - number of users who found the review helpful
+6. HelpfulnessDenominator - number of users who indicated whether they found the review helpful or not
+7. Score - rating between 1 and 5
+8. Time - timestamp for the review
+9. Summary - brief summary of the review
+10. Text - text of the review
 
 # EDA, NLP and Text Preprocessing
 
@@ -39,4 +37,4 @@ Evaluated the test data on various performance metrics like accuracy, f1-score, 
 
 # Conclusion:
 
-Performed Data, cleaning, EDA, t-SNE to understand the select the best features and then applyied Navies Bayes algorithm for machine learning model to determine whether the review is positive or negative. 
+Performed Data cleaning, EDA, t-SNE to understand the select the best features and then applyied Navies Bayes algorithm for machine learning model to determine whether the review is positive or negative. 
