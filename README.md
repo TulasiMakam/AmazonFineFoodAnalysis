@@ -26,7 +26,8 @@ Time - timestamp for the review
 Summary - brief summary of the review
 Text - text of the review
 
-#EDA, NLP and Text Preprocessing
+# EDA, NLP and Text Preprocessing
+
 1. Performed Data Cleaning & Data Preprocessing by removing unneccesary and duplicates rows and for text reviews removed html tags, punctuations, Stopwords and Stemmed the words using Porter Stemmer
 2. Documenting the concept
 3. Plotted TSNE plots for Different Featurization of Data viz. BOW, tfidf, Avg-Word2Vec and tf-idf-Word2Vec.
